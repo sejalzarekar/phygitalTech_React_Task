@@ -1,0 +1,24 @@
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: #1e293b;
+  color: white;
+  align-items: center;
+}
+
+.topnav .logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.topnav .links a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.topnav .links a:hover {
+  text-decoration: underline;
+}
